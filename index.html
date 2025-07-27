@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova IT Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-color: #0a0f2c;
+      color: white;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #1e3a8a;
+    }
+    nav a {
+      color: #93c5fd;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #bfdbfe;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #60a5fa;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #cbd5e1;
+    }
+    .services {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .service {
+      background-color: rgba(30, 58, 138, 0.3);
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+    .service h3 {
+      color: #60a5fa;
+      margin-bottom: 0.5rem;
+    }
+    .service p {
+      color: #cbd5e1;
+    }
+    @media (min-width: 768px) {
+      .services {
+        flex-direction: row;
+      }
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+      border-top: 1px solid #1e3a8a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="color: #60a5fa;">TechNova</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Modern IT Solutions</h2>
+    <p>We help businesses thrive in the digital era with innovative software and cloud solutions.</p>
+  </section>
+
+  <section id="services">
+    <div class="services">
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>Responsive websites built with modern technologies.</p>
+      </div>
+      <div class="service">
+        <h3>Cloud Architecture</h3>
+        <p>Scalable cloud-native infrastructure and DevOps pipelines.</p>
+      </div>
+      <div class="service">
+        <h3>Mobile Apps</h3>
+        <p>Cross-platform apps for iOS and Android.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 style="color: #60a5fa;">About Us</h2>
+    <p style="max-width: 700px; margin: 0 auto; color: #cbd5e1;">
+      Founded by passionate engineers, TechNova is committed to delivering top-tier IT services tailored to your business needs.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2 style="color: #60a5fa;">Contact</h2>
+    <p>Email us at <a href="mailto:contact@technova.com" style="color: #93c5fd;">contact@technova.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 TechNova. All rights reserved.
+  </footer>
+
+</body>
+</html>
